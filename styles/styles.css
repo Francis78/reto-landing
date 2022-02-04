@@ -17,22 +17,31 @@
 body{
     background-color: var(--main-color);
 }
-header img{
-    position: relative;
-    max-width: 150px;
-    padding: 5px 5px;
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
     margin-bottom: 80px;
 }
+header img{
+    position: relative;
+    max-width: 150px;  
+    
+}
+.head-right ul li{
+    list-style: none;
+}
 .head-right ul li a{
-    position: absolute;    
+        
     background: var(--main-color);
     color: hsl(321, 100%, 78%);
     border: 2px solid hsl(321, 100%, 78%);
     border-radius: 40px;
     font-weight: 700;
     letter-spacing: 1px;
-    /*text-decoration: none;
-    justify-content: center;
+    text-decoration: none;
+    /*justify-content: center;
     margin-bottom: 280px;*/    
 }
 /*
@@ -40,6 +49,10 @@ header>ul>li>a{
 
 }
 */
+.text-intro p{
+    font-family: "Open Sans";
+    font-weight: 400;
+}
 .sec .text-intro a{
     display: flex;
     margin: 20px 70px;
