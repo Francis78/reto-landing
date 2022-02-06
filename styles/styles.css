@@ -24,7 +24,8 @@ header{
 }
 header img{
     position: relative;
-    max-width: 150px;  
+    max-width: 150px; 
+     
     
 }
 .head-right ul li{
@@ -39,12 +40,23 @@ header img{
     font-weight: 700;
     letter-spacing: 1px;
     text-decoration: none;
+    padding: 2px 5px;
         
+}
+.sec .text-intro h1{
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .text-intro p{
     font-family: "Open Sans";
     font-weight: 400;
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .sec .text-intro a{
     display: flex;
@@ -60,16 +72,16 @@ header img{
     justify-content: space-around;
     
 }
-/*
+
 .boton{
-    position: relative;
-    display: flex;
-    width: 50rem;
-    justify-items: center;
-    align-items: center;   
+    
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
     
 }
-*/
+
 .sec .text-intro h1{
     text-align: center;
     padding-bottom: 30px;    
